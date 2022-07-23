@@ -1,6 +1,7 @@
 # Alura Stickers - Imersão Java - Alura
 
 > Projeto desenvolvido durante a semana de Imersão Java da Alura durante os dias 18 a 22 de julho de 2022.
+> Link vídeo:https://www.youtube.com/watch?v=pZy3sijHMU8
 
 ## Aula 2 👨‍💻⭐⭐
 
