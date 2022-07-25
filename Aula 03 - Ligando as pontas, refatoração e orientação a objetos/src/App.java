@@ -10,12 +10,9 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // Top250Data
-        // String url = "https://imdb-api.com/en/API/Top250Movies/k_kdi6x9hg";
-
-        // MostPopularData
-        // String url = "https://imdb-api.com/en/API/MostPopularMovies/k_kdi6x9hg";
-        String url = "https://api.mocki.io/v2/549a5d8b";
+ 
+        // String url = "https://api.mocki.io/v2/549a5d8b";
+        String url = "https://api.nasa.gov/planetary/apod?api_key=T0S23X4xHtMXen2tsDoHujjosZTH14scfOXhE7m7";
 
         URI endereco = URI.create(url);
         var client = HttpClient.newHttpClient();
@@ -29,24 +26,21 @@ public class App {
         for (Map<String, String> filme : listaDeFilmes.subList(0, listaDeFilmes.size())) {
             String texto = "Classificação: ";
             System.out.println("Título: " + filme.get("title"));
-            System.out.println("Poster: " + filme.get("image"));
+            System.out.println("Poster: " + filme.get("url"));
             
             if (filme.get("imDbRating") == null || filme.get("imDbRating").length() == 0) {
                 System.out.print("\u2620");
             } else {
                 var numberRating = (int) Math.round(Double.parseDouble(filme.get("imDbRating")));
-                // System.out.print("Classificação: ");
-                for (int j = 0; j < numberRating; j++) {
-                    // System.out.print("\u2B50");
-                    texto += "\u2B50";
+                 for (int j = 0; j < numberRating; j++) {
+                     texto += "\u2B50";
                 }
-                // System.out.print("\u001b[97m \u001b[104m" + filme.get("imDbRating") + "
-                // \u001b[m");
+       
 
                 texto += "\u001b[97m \u001b[104m" + filme.get("imDbRating") + " \u001b[m";
                 System.out.println(texto);
                 
-                String urlImage = filme.get("image");
+                String urlImage = filme.get("url");
                 InputStream inputStream = new URL(urlImage).openStream();
                 var generate = new GeradoraDeFigurinhas();
                 generate.create(inputStream, filme.get("title"), "Classificação: " + filme.get("imDbRating"));

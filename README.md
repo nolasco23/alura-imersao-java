@@ -1,7 +1,8 @@
-# alura-imersao-java
+# alura-imersao-java 👨🏾
 - Projeto desenvolvido durante a semana de Imersão Java da Alura durante os dias 18 a 22 de julho de 2022.
+- Autor: 
  
-## Aula 01 - Consumindo uma API de filmes com Java 👨‍💻⭐
+## Aula 01 - Consumindo uma API de filmes com Java 👨🏾‍💻⭐
 
 - Consumindo uma API de filmes com Java
 
@@ -13,7 +14,7 @@
 
 - Usar sua criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais! 
 
-## Aula 02 - Gerando figurinhas para WhatsApp 👨‍💻⭐⭐
+## Aula 02 - Gerando figurinhas para WhatsApp 👨🏾‍💻⭐⭐
 
 - Gerando figurinhas para WhatsApp
 
@@ -33,14 +34,14 @@
 10. Alterar texto de "Topzera" para a "Classicação do filme"
 
 
-## Aula 03 - Ligando as pontas, refatoração e orientação a objetos 👨‍💻⭐⭐⭐
+## Aula 03 - Ligando as pontas, refatoração e orientação a objetos 👨🏾‍💻⭐⭐⭐
 ### Desafios desta aula ✨
 
 
-## Aula 04 - Criando nossa própria API com Spring 👨‍💻⭐⭐⭐⭐
+## Aula 04 - Criando nossa própria API com Spring 👨🏾‍💻⭐⭐⭐⭐
 ### Desafios desta aula ✨
 
 
 
-## Aula 05 - Publicando nossa API no Cloud 👨‍💻⭐⭐⭐⭐⭐
+## Aula 05 - Publicando nossa API no Cloud 👨🏾‍💻⭐⭐⭐⭐⭐
 ### Desafios desta aula ✨

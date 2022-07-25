@@ -3,7 +3,7 @@
 > Projeto desenvolvido durante a semana de Imersão Java da Alura durante os dias 18 a 22 de julho de 2022.
 > Link vídeo: https://www.youtube.com/watch?v=mOZVkNEznCE
 
-## Aula 3 👨‍💻⭐⭐
+## Aula 3 👨🏾‍💻⭐⭐
 
 - Gerando figurinhas para WhatsApp
 

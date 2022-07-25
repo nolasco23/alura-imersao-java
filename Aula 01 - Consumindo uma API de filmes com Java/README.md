@@ -2,7 +2,9 @@
 
 > Projeto desenvolvido durante a semana de Imersão Java da Alura durante os dias 18 a 22 de julho de 2022.
 
-## Aula 1 👨‍💻⭐⭐
+>Link vídeo: https://www.youtube.com/watch?v=e7FJaSXwvdk
+ 
+## Aula 1 👨🏾‍💻⭐⭐
 
 - Consumindo uma API de filmes com Java
 
