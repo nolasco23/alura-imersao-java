@@ -8,7 +8,8 @@ public enum Dados {
     NASA("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-22&end_date=2022-06-25",
             new ExtratorDeConteudoNasa()),
     NASA2("https://raw.githubusercontent.com/alura-cursos/imersao-java/api/NASA-APOD.json",
-            new ExtratorDeConteudoNasa());
+            new ExtratorDeConteudoNasa()),
+    LOCAL("http://localhost:8080/linguagens", new ExtratorDeConteudoImdb());
 
     private String url;
     private ExtratorDeConteudo extrator;

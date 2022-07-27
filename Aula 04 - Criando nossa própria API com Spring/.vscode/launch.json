@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Aula 04 - Criando nossa própria API com Spring_59fbd0e5"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LinguagensApiApplication<linguagens-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.alura.linguagensapi.LinguagensApiApplication",
+            "projectName": "linguagens-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

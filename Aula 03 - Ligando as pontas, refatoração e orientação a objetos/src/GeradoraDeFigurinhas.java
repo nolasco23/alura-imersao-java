@@ -10,11 +10,7 @@ import java.awt.*;;
 public class GeradoraDeFigurinhas {
     public void create(InputStream inputStream, String fileName, String texto) throws Exception {
         try {// Ler imagem
-             // InputStream inputStream = new FileInputStream(new
-             // File("image/TopMovies_1.jpg"));
 
-            // InputStream inputStream = new
-            // URL("https://imersao-java-apis.s3.amazonaws.com/TopMovies_1.jpg").openStream();
             BufferedImage imageOriginal = ImageIO.read(inputStream);
 
             // Criar nova imagem com transparência e com tamanho diferente
