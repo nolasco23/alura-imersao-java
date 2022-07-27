@@ -33,6 +33,10 @@
 9. Desafio supremo: usar alguma biblioteca de manipulação de imagens como OpenCV pra extrair imagem principal e contorná-la.
 10. Alterar texto de "Topzera" para a "Classicação do filme"
 
+### Resultado
+![Screenshot from 2022-07-27 17-04-15](https://user-images.githubusercontent.com/32937333/181362086-ab2e9d2c-c606-4d65-9cc3-8d1401b35fa1.png)
+![Screenshot from 2022-07-27 17-04-04](https://user-images.githubusercontent.com/32937333/181362095-7f4d0925-186c-48e1-983f-4c048e9c64ea.png)
+
 
 ## Aula 03 - Ligando as pontas, refatoração e orientação a objetos 👨🏾‍💻⭐⭐⭐
 
@@ -62,6 +66,11 @@
 3. Criar na sua API um modelo de entidade com nomes diferentes de title e image e criar seu próprio extrator de informações personalizado OU, manter com o nome title e image e traduzir para que seja retornado como título e imagem através do uso de DTO (Data Transfer Object);
 4. Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST;
 5. Desafio supremo: Aplicar modificações parciais no recurso através do método PATCH, por exemplo, modificando o número de votos ou de pessoas que utilizam cada linguagem de programação.
-  
+ 
+ ### Resultado
+ ![C#](https://user-images.githubusercontent.com/32937333/181361707-2106f6c3-0689-41e4-b5fa-5ef3d3cc6f84.png)
+![GO](https://user-images.githubusercontent.com/32937333/181361712-3a098d6a-ba5f-4541-a067-458eebb282e8.png)
+![JAVA](https://user-images.githubusercontent.com/32937333/181361713-e0fff075-33e0-4457-a26a-cbd44b0a9e31.png)
+
 ## Aula 05 - Publicando nossa API no Cloud 👨🏾‍💻⭐⭐⭐⭐⭐
 ### Desafios desta aula ✨
